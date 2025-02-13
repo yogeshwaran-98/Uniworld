@@ -14,7 +14,7 @@ const Footer = () => {
           © UniWorld 2025. All rights reserved
         </p>
 
-        <div className="flex justify-center gap-4  md:justify-start ml-[-100px]">
+        <div className="flex items-center justify-center  gap-4  md:justify-start md:ml-[-100px]">
           {socialLinks.map((link, index) => (
             <a
               key={index}
@@ -30,7 +30,7 @@ const Footer = () => {
 
         <a
           href="#privacy-policy"
-          className="text-center text-sm font-light hover:underline md:text-right mr-10"
+          className="flex items-center jusify-center text-center text-sm font-light hover:underline md:text-right md:mr-10"
         >
           Privacy Policy
         </a>
