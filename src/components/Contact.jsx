@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const ImageClipBox = ({ src, clipClass, mirror = false }) => (
   <div className={clipClass}>
-    <img src={src} className={mirror ? "scale-x-[-1]" : ""} />
+    <img src={src} className={`${mirror ? "scale-x-[-1]" : ""} hidden md:block  `} />
   </div>
 );
 
